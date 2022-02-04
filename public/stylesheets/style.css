@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  background-color: rgb(223, 219, 219);
+  color: rgb(43, 40, 40);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+a:hover, a:active {
+  background-color: rgb(43, 40, 40);
+  color: white;
+}
+
+
+nav {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-wrapper {
+  padding: 10px 0;
+}
+
+h1 {
+  margin: 10px;
+}
